@@ -1,0 +1,155 @@
+[16:08:13] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[16:08:13] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.main.Main -> net.minecraft.client.MinecraftClient
+[16:08:13] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor <init>(Lnet/minecraft/client/RunArgs;)V
+[16:08:13] [main/DEBUG] (FabricLoader/GamePatch) Run directory field is thought to be net/minecraft/client/MinecraftClient/runDirectory
+[16:08:13] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[16:08:13] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[16:08:13] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 110 ms
+[16:08:13] [main/DEBUG] (FabricLoader/GamePatch) Patched 3 classs
+[16:08:13] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 128.8 ms
+[16:08:13] [main/DEBUG] (FabricLoader/Resolution) Mod resolution time: 94.8 ms
+[16:08:13] [main/INFO] (FabricLoader) Loading 55 mods:
+	- aoba 1.4.2
+	- exampleaddon 1.0.0
+	- fabric-api 0.100.4+1.21
+	- fabric-api-base 0.4.42+6573ed8cd1
+	- fabric-api-lookup-api-v1 1.6.67+b5597344d1
+	- fabric-biome-api-v1 13.0.28+6fc22b99d1
+	- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	- fabric-command-api-v1 1.2.48+f71b366fd1
+	- fabric-command-api-v2 2.2.27+6a6dfa19d1
+	- fabric-commands-v0 0.2.65+df3654b3d1
+	- fabric-content-registries-v0 8.0.14+b5597344d1
+	- fabric-convention-tags-v1 2.0.15+7f945d5bd1
+	- fabric-convention-tags-v2 2.3.2+78017270d1
+	- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	- fabric-data-attachment-api-v1 1.1.24+6a6dfa19d1
+	- fabric-data-generation-api-v1 20.2.9+16c4ae25d1
+	- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	- fabric-events-interaction-v0 0.7.10+e633f883d1
+	- fabric-game-rule-api-v1 1.0.52+6573ed8cd1
+	- fabric-gametest-api-v1 2.0.2+6fc22b99d1
+	- fabric-item-api-v1 11.0.0+afdfc921d1
+	- fabric-item-group-api-v1 4.1.2+78017270d1
+	- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	- fabric-keybindings-v0 0.2.45+df3654b3d1
+	- fabric-lifecycle-events-v1 2.3.11+8f3583aed1
+	- fabric-loot-api-v2 3.0.11+6573ed8cd1
+	- fabric-message-api-v1 6.0.13+6573ed8cd1
+	- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	- fabric-networking-api-v1 4.2.0+ab7edbacd1
+	- fabric-object-builder-api-v1 15.1.12+d1321076d1
+	- fabric-particles-v1 4.0.2+6573ed8cd1
+	- fabric-recipe-api-v1 5.0.10+65089712d1
+	- fabric-registry-sync-v0 5.0.23+78017270d1
+	- fabric-renderer-api-v1 3.3.0+0ae0b97dd1
+	- fabric-renderer-indigo 1.6.5+48fb1586d1
+	- fabric-renderer-registries-v1 3.2.67+df3654b3d1
+	- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	- fabric-rendering-v0 1.1.70+df3654b3d1
+	- fabric-rendering-v1 5.0.4+5a8c785ed1
+	- fabric-resource-conditions-api-v1 4.2.1+d153f344d1
+	- fabric-resource-loader-v0 1.1.5+78017270d1
+	- fabric-screen-api-v1 2.0.24+b5597344d1
+	- fabric-screen-handler-api-v1 1.3.80+b5597344d1
+	- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	- fabric-transfer-api-v1 5.1.15+3dccd343d1
+	- fabric-transitive-access-wideners-v1 6.0.12+6573ed8cd1
+	- fabricloader 0.15.11
+	- java 21
+	- minecraft 1.21
+	- mixinextras 0.3.5
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-data-attachment-api-v1\1.1.24+6a6dfa19d1\8301318b62bc59d07e801b99b5cc05007febffcc\fabric-data-attachment-api-v1-1.1.24+6a6dfa19d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-block-api-v1\1.0.22+0af3f5a7d1\fabric-block-api-v1-1.0.22+0af3f5a7d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-block-view-api-v2\1.0.10+6573ed8cd1\8f41ba661ed5befb4a9fdcac79d2f0835805288c\fabric-block-view-api-v2-1.0.10+6573ed8cd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-object-builder-api-v1\15.1.12+d1321076d1\7e9ab21a6260f038bcaeed4be055fd0f1482c87\fabric-object-builder-api-v1-15.1.12+d1321076d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-transfer-api-v1\5.1.15+3dccd343d1\fabric-transfer-api-v1-5.1.15+3dccd343d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-loot-api-v2\3.0.11+6573ed8cd1\68a7523ef77874674b5c1aa95d3b6c60ab9dd561\fabric-loot-api-v2-3.0.11+6573ed8cd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-command-api-v1\1.2.48+f71b366fd1\81c61465bdadac5211247dc57bd7ced745080e22\fabric-command-api-v1-1.2.48+f71b366fd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-model-loading-api-v1\2.0.0+fe474d6bd1\fabric-model-loading-api-v1-2.0.0+fe474d6bd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-gametest-api-v1\2.0.2+6fc22b99d1\5fe95eaa0ee27b6c81d3bee18fbaaaf064d28c55\fabric-gametest-api-v1-2.0.2+6fc22b99d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-key-binding-api-v1\1.0.47+0af3f5a7d1\fabric-key-binding-api-v1-1.0.47+0af3f5a7d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-resource-loader-v0\1.1.5+78017270d1\42b6b5fb99b90d193581d46689949dd88fa5f2ae\fabric-resource-loader-v0-1.1.5+78017270d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-crash-report-info-v1\0.2.29+0af3f5a7d1\fabric-crash-report-info-v1-0.2.29+0af3f5a7d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-renderer-registries-v1\3.2.67+df3654b3d1\32e93aca42d9f7ae2f77ca775ff315f69b41474d\fabric-renderer-registries-v1-3.2.67+df3654b3d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-keybindings-v0\0.2.45+df3654b3d1\700b69f9dd30f7f9e88fd33f8b22b86e4526b933\fabric-keybindings-v0-0.2.45+df3654b3d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-convention-tags-v1\2.0.15+7f945d5bd1\fabric-convention-tags-v1-2.0.15+7f945d5bd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-message-api-v1\6.0.13+6573ed8cd1\8413774473272af75097652970347cc5629c4eb6\fabric-message-api-v1-6.0.13+6573ed8cd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-biome-api-v1\13.0.28+6fc22b99d1\63c042d5b57c36cbd56982d02ffc91c7e6807aeb\fabric-biome-api-v1-13.0.28+6fc22b99d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\build\resources\main to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-rendering-v0\1.1.70+df3654b3d1\fabric-rendering-v0-1.1.70+df3654b3d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-command-api-v2\2.2.27+6a6dfa19d1\dfe1cbdc93b3e3e0981a69bd986ce570db6d0506\fabric-command-api-v2-2.2.27+6a6dfa19d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-dimensions-v1\4.0.0+6fc22b99d1\fabric-dimensions-v1-4.0.0+6fc22b99d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-client-tags-api-v1\1.1.15+6573ed8cd1\fabric-client-tags-api-v1-1.1.15+6573ed8cd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-game-rule-api-v1\1.0.52+6573ed8cd1\fabric-game-rule-api-v1-1.0.52+6573ed8cd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-fabric\0.3.5\3b577be20ea942610b3045e4f0cd909fa415a9d3\mixinextras-fabric-0.3.5.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-api\0.100.4+1.21\fabric-api-0.100.4+1.21.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-recipe-api-v1\5.0.10+65089712d1\fabric-recipe-api-v1-5.0.10+65089712d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-blockrenderlayer-v1\1.1.52+0af3f5a7d1\69fc0a170af59131ddb566b84b7cda285608bb6d\fabric-blockrenderlayer-v1-1.1.52+0af3f5a7d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-networking-api-v1\4.2.0+ab7edbacd1\eef7183400847b246fcd3ca12cc127c52b09f2d3\fabric-networking-api-v1-4.2.0+ab7edbacd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-sound-api-v1\1.0.23+6573ed8cd1\fabric-sound-api-v1-1.0.23+6573ed8cd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-transitive-access-wideners-v1\6.0.12+6573ed8cd1\65f261d8ab997606f2e082f0b5a46aef5e83f0b5\fabric-transitive-access-wideners-v1-6.0.12+6573ed8cd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-item-group-api-v1\4.1.2+78017270d1\fabric-item-group-api-v1-4.1.2+78017270d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-screen-handler-api-v1\1.3.80+b5597344d1\c8c4e9d055af78454d7f1cb72f8057f44ad0a347\fabric-screen-handler-api-v1-1.3.80+b5597344d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-registry-sync-v0\5.0.23+78017270d1\fabric-registry-sync-v0-5.0.23+78017270d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-entity-events-v1\1.6.12+6fc22b99d1\787aa8c7d6edda036c345486e9f6e2f7ce9f2095\fabric-entity-events-v1-1.6.12+6fc22b99d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-lifecycle-events-v1\2.3.11+8f3583aed1\3954f384f5915f4ffc82aeab26d417abd1f2549a\fabric-lifecycle-events-v1-2.3.11+8f3583aed1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-events-interaction-v0\0.7.10+e633f883d1\da178b90be8da9d18834d3db45f51a55148e7f9a\fabric-events-interaction-v0-0.7.10+e633f883d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-api-base\0.4.42+6573ed8cd1\fabric-api-base-0.4.42+6573ed8cd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-rendering-fluids-v1\3.1.6+b5597344d1\fabric-rendering-fluids-v1-3.1.6+b5597344d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-rendering-v1\5.0.4+5a8c785ed1\fabric-rendering-v1-5.0.4+5a8c785ed1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-screen-api-v1\2.0.24+b5597344d1\bef770ba985d7962f2bbf59f454092f3cf4fb7ec\fabric-screen-api-v1-2.0.24+b5597344d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\com.github.coltonk9043\Aoba-MC-Hacked-Client\4976c46124\eabd9b7514adc8b3ca69d328e72b8f130da01846\Aoba-MC-Hacked-Client-4976c46124.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-item-api-v1\11.0.0+afdfc921d1\d71bfffd757f71812609dd40d244b801408490a3\fabric-item-api-v1-11.0.0+afdfc921d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-convention-tags-v2\2.3.2+78017270d1\a2e3301c39e048d339204dd23bfef20cd2a9de6a\fabric-convention-tags-v2-2.3.2+78017270d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-content-registries-v0\8.0.14+b5597344d1\fabric-content-registries-v0-8.0.14+b5597344d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-particles-v1\4.0.2+6573ed8cd1\fabric-particles-v1-4.0.2+6573ed8cd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-resource-conditions-api-v1\4.2.1+d153f344d1\589b26487c6bff92d201709d138f4e478c0520eb\fabric-resource-conditions-api-v1-4.2.1+d153f344d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-data-generation-api-v1\20.2.9+16c4ae25d1\fabric-data-generation-api-v1-20.2.9+16c4ae25d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-renderer-api-v1\3.3.0+0ae0b97dd1\fabric-renderer-api-v1-3.3.0+0ae0b97dd1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-renderer-indigo\1.6.5+48fb1586d1\aee226d4b8d38cab7d7ae979393862a64ee45f0f\fabric-renderer-indigo-1.6.5+48fb1586d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-api-lookup-api-v1\1.6.67+b5597344d1\fabric-api-lookup-api-v1-1.6.67+b5597344d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\cvs0_\Documents\GitHub\Aoba-Addon-Template\AobaAddonTemplate\.gradle\loom-cache\remapped_mods\net_fabricmc_yarn_1_21_1_21_build_1_v2\net\fabricmc\fabric-api\fabric-rendering-data-attachment-v1\0.3.48+73761d2ed1\fabric-rendering-data-attachment-v1-0.3.48+73761d2ed1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Knot) Adding G:\packages\gradle\caches\modules-2\files-2.1\net.fabricmc.fabric-api\fabric-commands-v0\0.2.65+df3654b3d1\9b182390ce69582237ac00d879147eae4ca6eb5c\fabric-commands-v0-0.2.65+df3654b3d1.jar to classpath.
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.attachment.AttachmentEntrypoint for mod fabric-data-attachment-api-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.command.v1.LegacyHandler for mod fabric-command-api-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.gametest.FabricGameTestModInitializer for mod fabric-gametest-api-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.tag.convention.ConventionLogWarnings for mod fabric-convention-tags-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer com.cvs0.ExampleAddon for mod exampleaddon (key aoba)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.rendering.v0.RenderingCallbackInvoker for mod fabric-rendering-v0 (key client)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.client.CustomIngredientSyncClient for mod fabric-recipe-api-v1 (key client)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.CustomIngredientInit for mod fabric-recipe-api-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.CustomIngredientSync for mod fabric-recipe-api-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.networking.client.ClientNetworkingImpl::clientInit for mod fabric-networking-api-v1 (key client)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.networking.CommonPacketsImpl::init for mod fabric-networking-api-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.networking.NetworkingImpl::init for mod fabric-networking-api-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.screenhandler.client.ClientNetworking for mod fabric-screen-handler-api-v1 (key client)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.screenhandler.Networking for mod fabric-screen-handler-api-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.registry.sync.FabricRegistryClientInit for mod fabric-registry-sync-v0 (key client)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.registry.sync.FabricRegistryInit for mod fabric-registry-sync-v0 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.event.lifecycle.ClientLifecycleEventsImpl for mod fabric-lifecycle-events-v1 (key client)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.event.lifecycle.LifecycleEventsImpl for mod fabric-lifecycle-events-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.client.InteractionEventsRouterClient for mod fabric-events-interaction-v0 (key client)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.InteractionEventsRouter for mod fabric-events-interaction-v0 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.aoba.Aoba for mod aoba (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.tag.convention.v2.TranslationConventionLogWarnings for mod fabric-convention-tags-v2 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.resource.conditions.ResourceConditionsImpl for mod fabric-resource-conditions-api-v1 (key main)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.indigo.Indigo for mod fabric-renderer-indigo (key client)
+[16:08:13] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.lookup.ApiLookupImpl for mod fabric-api-lookup-api-v1 (key main)
+[16:08:13] [main/ERROR] (FabricLoader) Uncaught exception in thread "main"
+java.lang.RuntimeException: Failed to read accessWidener file from mod fabric-block-view-api-v2
+	at net.fabricmc.loader.impl.FabricLoaderImpl.loadAccessWideners(FabricLoaderImpl.java:514) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:149) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]
+Caused by: net.fabricmc.loader.impl.lib.accesswidener.AccessWidenerFormatException: Namespace (intermediary) does not match current runtime namespace (named)
+	at net.fabricmc.loader.impl.lib.accesswidener.AccessWidenerReader.error(AccessWidenerReader.java:285) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.lib.accesswidener.AccessWidenerReader.read(AccessWidenerReader.java:84) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.loadAccessWideners(FabricLoaderImpl.java:512) ~[fabric-loader-0.15.11.jar:?]
+	... 4 more

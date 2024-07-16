@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "exampleaddon",
+  "version": "${version}",
+  "name": "ExampleAddon",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/cvs0/Fishy-BTONE-untitledod"
+  },
+  "license": "MIT",
+  "icon": "assets/untitled/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "aoba": [
+      "com.cvs0.ExampleAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "~1.21"
+  }
+}
