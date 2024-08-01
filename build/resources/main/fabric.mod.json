@@ -9,7 +9,7 @@
     "repo": "https://github.com/cvs0/Fishy-BTONE-untitledod"
   },
   "license": "MIT",
-  "icon": "assets/untitled/icon.png",
+  "icon": "assets/aoba-addon-template/icon.png",
   "environment": "client",
   "entrypoints": {
     "aoba": [
