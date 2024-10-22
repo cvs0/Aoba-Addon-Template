@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aoba-Addon-Template.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Aoba-Addon-Template.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aoba-Addon-Template.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Aoba-Addon-Template.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AobaAddon-Template.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AobaAddon-Template.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AobaAddon-Template.test.iml" filepath="$PROJECT_DIR$/.idea/modules/AobaAddon-Template.test.iml" />
     </modules>

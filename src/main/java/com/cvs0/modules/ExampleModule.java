@@ -8,18 +8,24 @@ import net.minecraft.client.util.InputUtil;
 import org.lwjgl.glfw.GLFW;
 
 public class ExampleModule extends Module {
-    private FloatSetting exampleSetting;
+    public FloatSetting lineThickness = FloatSetting.builder()
+            .id("example_examplesetting")
+            .displayName("Example Setting")
+            .description("Adjust the exampleness of the example")
+            .defaultValue(2f)
+            .minValue(0f)
+            .maxValue(5f)
+            .step(0.1f)
+            .build();
 
     public ExampleModule() {
-        super("key.example", "Example Key", GLFW.GLFW_KEY_UNKNOWN);
+        super(KeybindSetting.builder().id("key.aimbot").displayName("Aimbot Key").defaultValue(InputUtil.fromKeyCode(GLFW.GLFW_KEY_UNKNOWN, 0)).build());
 
         this.setName("Example");
         this.setCategory(Category.of("ExampleAddon"));
         this.setDescription("Example Mod");
 
-        exampleSetting = new FloatSetting("example_setting", "Example Setting", "Example Float Setting", 1.0f, 1.0f, 20.0f, 1.0f);
-
-        this.addSetting(exampleSetting);
+        this.addSetting(lineThickness);
     }
 
     @Override

@@ -38,6 +38,26 @@ public class ExampleAddon implements IAddon {
     }
 
     @Override
+    public String getDescription() {
+        return "Example Addon";
+    }
+
+    @Override
+    public String getLicense() {
+        return "MIT";
+    }
+
+    @Override
+    public String getHomepageURL() {
+        return "https://aobaclient.com";
+    }
+
+    @Override
+    public String getIssueTrackerURL() {
+        return "https://github.com/coltonk9043/Aoba-MC-Hacked-Client/issues";
+    }
+
+    @Override
     public String getAuthor() {
         return "cvs0";
     }
