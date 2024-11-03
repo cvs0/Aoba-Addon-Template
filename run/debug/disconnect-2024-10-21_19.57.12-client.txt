@@ -1,0 +1,217 @@
+---- Minecraft Network Protocol Error Report ----
+// Are you sure you are not moving wrongly?
+
+Time: 2024-10-21 19:57:12
+Description: Packet handling error
+
+io.netty.handler.codec.DecoderException: java.io.IOException: Packet play/clientbound/minecraft:change_difficulty (DifficultyS2CPacket) was larger than I expected, found 12 bytes extra whilst reading packet clientbound/minecraft:change_difficulty
+	at knot//io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:500)
+	at knot//io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at knot//io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202)
+	at knot//io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1407)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at knot//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at knot//io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:323)
+	at knot//io.netty.channel.local.LocalChannel.doBeginRead(LocalChannel.java:346)
+	at knot//io.netty.channel.AbstractChannel$AbstractUnsafe.beginRead(AbstractChannel.java:832)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.read(DefaultChannelPipeline.java:1359)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:845)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:824)
+	at knot//io.netty.handler.flow.FlowControlHandler.read(FlowControlHandler.java:144)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:847)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:824)
+	at knot//io.netty.channel.DefaultChannelPipeline.read(DefaultChannelPipeline.java:1003)
+	at knot//io.netty.channel.AbstractChannel.read(AbstractChannel.java:289)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.readIfIsAutoRead(DefaultChannelPipeline.java:1419)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.channelReadComplete(DefaultChannelPipeline.java:1414)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelReadComplete(AbstractChannelHandlerContext.java:482)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelReadComplete(AbstractChannelHandlerContext.java:463)
+	at knot//io.netty.channel.DefaultChannelPipeline.fireChannelReadComplete(DefaultChannelPipeline.java:924)
+	at knot//io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:326)
+	at knot//io.netty.channel.local.LocalChannel.finishPeerRead0(LocalChannel.java:469)
+	at knot//io.netty.channel.local.LocalChannel.access$400(LocalChannel.java:51)
+	at knot//io.netty.channel.local.LocalChannel$5.run(LocalChannel.java:427)
+	at knot//io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at knot//io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: Packet play/clientbound/minecraft:change_difficulty (DifficultyS2CPacket) was larger than I expected, found 12 bytes extra whilst reading packet clientbound/minecraft:change_difficulty
+	at knot//net.minecraft.network.handler.DecoderHandler.decode(DecoderHandler.java:43)
+	at knot//io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:530)
+	at knot//io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:469)
+	... 38 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Netty Local Client IO #1
+Stacktrace:
+	at knot//net.minecraft.network.listener.PacketListener.fillCrashReport(PacketListener.java:33)
+
+-- Connection --
+Details:
+	Protocol: play
+	Flow: CLIENTBOUND
+	Server type: <none>
+	Server brand: fabric
+Stacktrace:
+	at knot//net.minecraft.network.listener.PacketListener.fillCrashReport(PacketListener.java:33)
+	at knot//net.minecraft.network.NetworkThreadUtils.fillCrashReport(NetworkThreadUtils.java:62)
+	at knot//net.minecraft.client.network.ClientCommonNetworkHandler.savePacketErrorReport(ClientCommonNetworkHandler.java:136)
+	at knot//net.minecraft.client.network.ClientCommonNetworkHandler.createDisconnectionInfo(ClientCommonNetworkHandler.java:127)
+	at knot//net.minecraft.network.ClientConnection.exceptionCaught(ClientConnection.java:161)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at knot//io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:447)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at knot//io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202)
+	at knot//io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1407)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at knot//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at knot//io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:323)
+	at knot//io.netty.channel.local.LocalChannel.doBeginRead(LocalChannel.java:346)
+	at knot//io.netty.channel.AbstractChannel$AbstractUnsafe.beginRead(AbstractChannel.java:832)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.read(DefaultChannelPipeline.java:1359)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:845)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:824)
+	at knot//io.netty.handler.flow.FlowControlHandler.read(FlowControlHandler.java:144)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:847)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:824)
+	at knot//io.netty.channel.DefaultChannelPipeline.read(DefaultChannelPipeline.java:1003)
+	at knot//io.netty.channel.AbstractChannel.read(AbstractChannel.java:289)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.readIfIsAutoRead(DefaultChannelPipeline.java:1419)
+	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.channelReadComplete(DefaultChannelPipeline.java:1414)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelReadComplete(AbstractChannelHandlerContext.java:482)
+	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelReadComplete(AbstractChannelHandlerContext.java:463)
+	at knot//io.netty.channel.DefaultChannelPipeline.fireChannelReadComplete(DefaultChannelPipeline.java:924)
+	at knot//io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:326)
+	at knot//io.netty.channel.local.LocalChannel.finishPeerRead0(LocalChannel.java:469)
+	at knot//io.netty.channel.local.LocalChannel.access$400(LocalChannel.java:51)
+	at knot//io.netty.channel.local.LocalChannel$5.run(LocalChannel.java:427)
+	at knot//io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at knot//io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.3, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 145872480 bytes (139 MiB) / 989855744 bytes (944 MiB) up to 17003708416 bytes (16216 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 5800H with Radeon Graphics         
+	Identifier: AuthenticAMD Family 25 Model 80 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 4096.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.6590
+	Graphics card #1 name: AMD Radeon(TM) Graphics
+	Graphics card #1 vendor: Advanced Micro Devices, Inc.
+	Graphics card #1 VRAM (MiB): 512.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 31.0.12002.7004
+	Memory slot #0 capacity (MiB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 74590.95
+	Virtual memory used (MiB): 33343.44
+	Swap memory total (MiB): 9728.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 294764.91, total: 1907712.00
+	Space in storage for workdir (MiB): available: 294764.91, total: 1907712.00
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		aoba: Aoba Hacked Client 1.4.3
+		exampleaddon: ExampleAddon 1.0.0
+		fabric-api: Fabric API 0.106.0+1.21.1
+		fabric-api-base: Fabric API Base 0.4.42+6573ed8c19
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.68+b559734419
+		fabric-biome-api-v1: Fabric Biome API (v1) 13.0.29+5bd9f1bc19
+		fabric-block-api-v1: Fabric Block API (v1) 1.0.22+0af3f5a719
+		fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.10+6573ed8c19
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.52+0af3f5a719
+		fabric-client-tags-api-v1: Fabric Client Tags 1.1.15+6573ed8c19
+		fabric-command-api-v1: Fabric Command API (v1) 1.2.49+f71b366f19
+		fabric-command-api-v2: Fabric Command API (v2) 2.2.28+6ced4dd919
+		fabric-commands-v0: Fabric Commands (v0) 0.2.66+df3654b319
+		fabric-content-registries-v0: Fabric Content Registries (v0) 8.0.16+b559734419
+		fabric-convention-tags-v1: Fabric Convention Tags 2.1.0+7f945d5b19
+		fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.9.0+83a9d31319
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.29+0af3f5a719
+		fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.1.28+1daea21519
+		fabric-data-generation-api-v1: Fabric Data Generation API (v1) 20.2.21+16c4ae2519
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.0+6fc22b9919
+		fabric-entity-events-v1: Fabric Entity Events (v1) 1.7.0+2122d82819
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.13+ba9dae0619
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.53+6ced4dd919
+		fabric-gametest-api-v1: Fabric Game Test API (v1) 2.0.4+6fc22b9919
+		fabric-item-api-v1: Fabric Item API (v1) 11.1.0+d5debaed19
+		fabric-item-group-api-v1: Fabric Item Group API (v1) 4.1.5+3fc0e55219
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.47+0af3f5a719
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.45+df3654b319
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.3.12+6c1df36019
+		fabric-loot-api-v2: Fabric Loot API (v2) 3.0.14+3f89f5a519
+		fabric-loot-api-v3: Fabric Loot API (v3) 1.0.2+3f89f5a519
+		fabric-message-api-v1: Fabric Message API (v1) 6.0.13+6573ed8c19
+		fabric-model-loading-api-v1: Fabric Model Loading API (v1) 2.0.0+fe474d6b19
+		fabric-networking-api-v1: Fabric Networking API (v1) 4.3.0+c7469b2119
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 15.2.0+40875a9319
+		fabric-particles-v1: Fabric Particles (v1) 4.0.2+6573ed8c19
+		fabric-recipe-api-v1: Fabric Recipe API (v1) 5.0.13+6508971219
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.1.3+60c3209b19
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 3.4.0+c705a49c19
+		fabric-renderer-indigo: Fabric Renderer - Indigo 1.7.0+c705a49c19
+		fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.68+df3654b319
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.6+1daea21519
+		fabric-rendering-v0: Fabric Rendering (v0) 1.1.71+df3654b319
+		fabric-rendering-v1: Fabric Rendering (v1) 5.0.5+df16efd019
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 4.3.0+8dc279b119
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 1.3.0+5659912919
+		fabric-screen-api-v1: Fabric Screen API (v1) 2.0.25+8b68f1c719
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.87+b559734419
+		fabric-sound-api-v1: Fabric Sound API (v1) 1.0.23+6573ed8c19
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.0+95bead5f19
+		fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.1.0+1daea21519
+		fabricloader: Fabric Loader 0.16.7
+		java: Java HotSpot(TM) 64-Bit Server VM 21
+		minecraft: Minecraft 1.21.1
+		mixinextras: MixinExtras 0.4.1
+		sodium: Sodium 0.6.0-beta.2+mc1.21.1

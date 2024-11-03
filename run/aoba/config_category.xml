@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="Toggle HUDs_position">0.0,0.0,300.0,30.0</entry>
+<entry key="RadarHud_activated">false</entry>
+<entry key="ModuleSelectorHud_position">0.0,0.0,225.0,180.0</entry>
+<entry key="SpeedHud_activated">false</entry>
+<entry key="hud_foreground_color">Solid,#FFFF0400</entry>
+<entry key="goto_radius">5.0</entry>
+<entry key="WatermarkHud_activated">false</entry>
+<entry key="ArmorHud_position">0.0,0.0,16.0,256.0</entry>
+<entry key="Misc_position">620.0,75.0,180.0,420.0</entry>
+<entry key="RadarHud_position">0.0,0.0,180.0,180.0</entry>
+<entry key="PingHud_position">0.0,0.0,0.0,20.0</entry>
+<entry key="ModuleArrayListHud_activated">false</entry>
+<entry key="goto_pathfinder_mode">Walk</entry>
+<entry key="CoordsHud_position">0.0,0.0,0.0,20.0</entry>
+<entry key="Go To Location_position">1220.0,550.0,360.0,0.0</entry>
+<entry key="PingHud_activated">false</entry>
+<entry key="NetherCoordsHud_position">0.0,0.0,0.0,20.0</entry>
+<entry key="goto_max_speed">4.0</entry>
+<entry key="ArmorHud_activated">false</entry>
+<entry key="goto_avoid_water">false</entry>
+<entry key="FPSHud_position">0.0,0.0,0.0,20.0</entry>
+<entry key="World_position">1000.0,75.0,180.0,210.0</entry>
+<entry key="Combat_position">430.0,75.0,180.0,450.0</entry>
+<entry key="hud_rounding_radius">6.0</entry>
+<entry key="Auth Cracker_position">810.0,500.0,280.0,0.0</entry>
+<entry key="Movement_position">50.0,75.0,180.0,690.0</entry>
+<entry key="WatermarkHud_position">0.0,0.0,0.0,20.0</entry>
+<entry key="ModuleArrayListHudText_TextAlign">Left</entry>
+<entry key="hud_background_color">Solid,#32000000</entry>
+<entry key="goto_location_z">null</entry>
+<entry key="TimeHud_activated">false</entry>
+<entry key="ModuleArrayListHud_position">0.0,0.0,70.0,0.0</entry>
+<entry key="goto_location_x">null</entry>
+<entry key="goto_location_y">null</entry>
+<entry key="NetherCoordsHud_activated">false</entry>
+<entry key="hud_border_color">Solid,#FF000000</entry>
+<entry key="TimeHud_position">0.0,0.0,0.0,20.0</entry>
+<entry key="Hud Options_position">600.0,200.0,340.0,0.0</entry>
+<entry key="Macro_position">1500.0,550.0,360.0,0.0</entry>
+<entry key="DayHud_activated">false</entry>
+<entry key="FPSHud_activated">false</entry>
+<entry key="DayHud_position">0.0,0.0,0.0,20.0</entry>
+<entry key="SpeedHud_position">0.0,0.0,0.0,20.0</entry>
+<entry key="CoordsHud_activated">false</entry>
+<entry key="goto_avoid_lava">false</entry>
+<entry key="Render_position">240.0,75.0,180.0,480.0</entry>
+<entry key="ExampleAddon_position">810.0,75.0,180.0,60.0</entry>
+<entry key="ModuleSelectorHud_activated">false</entry>
+</properties>

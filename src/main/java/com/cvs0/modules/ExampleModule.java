@@ -19,9 +19,8 @@ public class ExampleModule extends Module {
             .build();
 
     public ExampleModule() {
-        super(KeybindSetting.builder().id("key.aimbot").displayName("Aimbot Key").defaultValue(InputUtil.fromKeyCode(GLFW.GLFW_KEY_UNKNOWN, 0)).build());
+        super("Example");
 
-        this.setName("Example");
         this.setCategory(Category.of("ExampleAddon"));
         this.setDescription("Example Mod");
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="Movement_pinned">false</entry>
+<entry key="ExampleAddon_pinned">false</entry>
+<entry key="Render_pinned">false</entry>
+<entry key="aoba_font">minecraft</entry>
+<entry key="aoba_prefix">.aoba</entry>
+<entry key="Combat_pinned">false</entry>
+<entry key="Misc_pinned">false</entry>
+<entry key="World_pinned">false</entry>
+</properties>
