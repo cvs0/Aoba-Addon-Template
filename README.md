@@ -36,4 +36,4 @@
 ## Credits
 
 ### coltonk9043 : Developer of Aoba Client.
-### cvs0 : Contributor of Aoba Client, and developer of the adodn system.
+### cvs0 : Contributor of Aoba Client, and developer of the addon system.
