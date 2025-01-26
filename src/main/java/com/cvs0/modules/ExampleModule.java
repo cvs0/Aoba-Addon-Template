@@ -3,9 +3,6 @@ package com.cvs0.modules;
 import net.aoba.module.Category;
 import net.aoba.module.Module;
 import net.aoba.settings.types.FloatSetting;
-import net.aoba.settings.types.KeybindSetting;
-import net.minecraft.client.util.InputUtil;
-import org.lwjgl.glfw.GLFW;
 
 public class ExampleModule extends Module {
     public FloatSetting lineThickness = FloatSetting.builder()

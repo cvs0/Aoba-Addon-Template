@@ -4,10 +4,9 @@ import com.cvs0.commands.ExampleCommand;
 import com.cvs0.modules.ExampleModule;
 import com.mojang.logging.LogUtils;
 import net.aoba.api.IAddon;
-import net.aoba.cmd.Command;
+import net.aoba.command.Command;
 import net.aoba.module.Module;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 

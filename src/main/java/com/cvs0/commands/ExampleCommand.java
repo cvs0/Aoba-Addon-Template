@@ -1,8 +1,8 @@
 package com.cvs0.commands;
 
 import net.aoba.Aoba;
-import net.aoba.cmd.Command;
-import net.aoba.cmd.CommandManager;
+import net.aoba.command.Command;
+import net.aoba.managers.CommandManager;
 
 import java.util.Set;
 
